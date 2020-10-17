@@ -1,0 +1,10 @@
+<div class="list-group" *ngIf="(data | async)?.length > 0">
+  <div class="list-group-item" *ngFor="let i of data | async | slice: 0:12">
+    <div><b>{{ i.product.name }}</b></div>
+    <div>{{ i.product.color }}</div>
+    <div>#{{ i.product.item }}</div>
+    <div>{{ i.product.price | currency}}</div>
+    <div>qty: {{ i.product.qty }}</div>
+    <div>{{ i.product.qty * i.product.price | currency}}</div>
+  </div>
+</div>
