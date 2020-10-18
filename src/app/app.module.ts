@@ -10,16 +10,26 @@ import { CartComponent } from './cart/cart.component';
 import { HomeComponent } from './home/home.component';
 import { ListViewComponent } from './list-view/list-view.component';
 import { AccountComponent } from './account/account.component';
+import { CardComponent } from './_shared/card/card.component';
+import { CollapseComponent } from './_shared/collapse/collapse.component';
+import { LoginComponent } from './access-control/login/login.component';
+import { CreateAccountComponent } from './access-control/create-account/create-account.component';
+import { ModalComponent } from './_shared/modal/modal.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
-      NavbarComponent,
-      CartComponent,
-      HomeComponent,
-      ListViewComponent,
-      AccountComponent
-   ],
+    NavbarComponent,
+    CartComponent,
+    HomeComponent,
+    ListViewComponent,
+    AccountComponent,
+    CardComponent,
+    CollapseComponent,
+    LoginComponent,
+    CreateAccountComponent,
+    ModalComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
