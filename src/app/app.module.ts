@@ -9,14 +9,16 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CartComponent } from './cart/cart.component';
 import { HomeComponent } from './home/home.component';
 import { ListViewComponent } from './list-view/list-view.component';
+import { AccountComponent } from './account/account.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
       NavbarComponent,
       CartComponent,
       HomeComponent,
-      ListViewComponent
+      ListViewComponent,
+      AccountComponent
    ],
   imports: [
     BrowserModule,
